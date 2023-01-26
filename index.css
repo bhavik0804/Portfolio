@@ -1,0 +1,296 @@
+@import url("https://fonts.google.com/specimen/Open+Sans?preview.size=27");
+
+
+/* CSS For Home Page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: gray;
+    /* width: 178px; */
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 0;
+    font-family: monospace;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.main {
+    /* background-color: blanchedalmond; */
+    width: 90vw;
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(66, 134, 134); */
+    height: 356px;
+    width: 768px;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.DevPic img {
+    height: 356px;
+}
+
+.hello {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.know {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name {
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: aliceblue;
+    background-color: rgb(163, 174, 241);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+}
+
+.buttons button a {
+    text-decoration: none;
+}
+
+.buttons button:hover {
+    background-color: rgb(240, 237, 237);
+    color: dodgerblue;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 160px;
+    height: 15px;
+    width: 15px;
+}
+
+.ham{
+    height: 15px;
+    width: 15px; 
+}
+
+.sidebarGo{
+    transform: translate(-440px , 0px);
+    position: absolute;
+}
+
+
+
+/* End Of CSS of HomePage */
+
+/* CSS For Contact Me */
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.contactform h1 {
+    font-family: monospace;
+    /* text-align: center; */
+}
+
+.contactform div {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 4px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 8px;
+    color: blue;
+    margin: 0 5px;
+    padding-top: 10px;
+}
+
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 10px;
+    margin-right: 3px;
+}
+
+#enquiry{
+    padding-bottom: 3px;
+}
+
+.form-group textarea {
+    padding: 10px;
+    width: 60%;
+    height: 80px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+#btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: aliceblue;
+    background-color: rgb(163, 174, 241);
+    /* font-weight: bold; */
+    font-size: 15px; 
+    padding-top: 3px;  
+}
+
+#btn:hover{
+    background-color: rgb(240, 237, 237);
+    color: dodgerblue;
+}
+
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blogContainer{
+    padding: 0 34px;
+    /* padding-top: 144px; */
+}
+
+
+.blogContainer h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 25px;
+    
+}
+
+.blogItem p{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+.introContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 30px 0;
+}
+
+
+.intro h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 12px;
+}
+
+.intro p{
+    padding: 12px;
+    box-sizing: border-box;
+
+}
+
+.skillItems{
+    display: flex;
+    align-items: center;
+}
+
+.skillContainer{
+    padding: 12px;
+    
+}
+
+.skills{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    flex-direction: row;
+}
+
+.Ninety{
+    width: 200px;
+    background-color: black;
+}
+
+.Seventy{
+    width: 130px;
+    background-color: chocolate;
+}
+
+.Fifty{
+    width: 80px;
+    background-color: aquamarine;
+}
+
+
+@media (max-width: 1000px) {
+    *{
+        /* background-color: rgb(179, 150, 150); */
+    }
+
+    .DevPic{
+        display: none;
+    }
+    /* .sidebar{
+        transform: translate(-400px, 0px);
+        position: absolute;
+    }  */
+}
